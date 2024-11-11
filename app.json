@@ -1,0 +1,33 @@
+{
+	"expo": {
+		"name": "Zenithix",
+		"slug": "Zenithix",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/zen_icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/zen_splashpage.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/zen_icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.seizer12.Zenithix"
+		},
+		"web": {
+			"favicon": "./assets/zen_favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "c93c28b5-40f7-442d-b258-dec851bb69cb"
+			}
+		}
+	}
+}
